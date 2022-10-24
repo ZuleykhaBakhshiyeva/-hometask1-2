@@ -1,0 +1,88 @@
+.container_image {
+    height: 150px;
+    width: 150px;
+    padding: 0 20px 0 20px;
+    transition: transform 1s;
+}
+  
+.container_image:hover{
+    transform: rotate(720deg);
+}
+  
+.container_text{
+    display: inline-block;
+    width: 100px;
+    font-size: 18px;
+    vertical-align:auto;
+}
+  
+.table, th, td {
+    border: 1px solid black;
+    height: 50px;
+    width: 150px;
+    float: left;
+}
+  
+#table tr:nth-child(even){background-color:bisque;}
+  
+#table tr:hover {background-color:blanchedalmond;}
+  
+#table th {
+    background-color:rgba(243, 173, 81, 0.541);
+    color: rgb(20, 19, 19);
+}
+  
+  
+h1.header {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+}
+b{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(240, 105, 72, 0.96);
+}
+  
+input[type="date" i] {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px ;
+    background-color: rgba(187, 189, 60, 0.315);
+    color: black;
+    border-radius: 20px;
+    border-color: rgba(187, 189, 60, 0.315);
+}
+  
+input[type="text" i],[type="number" i]{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px 2px;
+    background-color: rgba(187, 189, 60, 0.315);
+    color: black;
+    border-radius: 20px;
+    border-color: rgba(187, 189, 60, 0.315);
+}
+  
+input.add{
+    cursor:cell;
+}
+  
+select{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px 2px;
+    background-color: rgba(187, 189, 60, 0.315);
+    color: black;
+    border-radius: 20px;
+    border-color: rgba(187, 189, 60, 0.315);
+    cursor:grab
+}
+  
+button{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 5px;
+    background-color: rgba(187, 189, 60, 0.315);
+    color: black;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: rgb(187, 189, 60, 0.315);
+    text-align: center;
+    margin: 10px 5px;
+    cursor: pointer;
+}
